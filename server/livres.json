@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "titre": "1984",
+          "auteur": "George Orwell",
+          "prix": 9.99,
+          "description": "1984 est un roman dystopique écrit par George Orwell en 1948. Lhistoire se déroule dans une société totalitaire où la liberté individuelle est réprimée et la surveillance de masse est omniprésente.
+    },
+    {
+        "id":2,
+        "titre": "Le Seigneur des Anneaux",
+        "auteur": "J.R.R. Tolkien",
+        "prix": "14.99",
+        "description": "Le Seigneur des Anneaux est une trilogie de romans de fantasy écrits par J.R.R. Tolkien. Lhistoire se déroule dans un monde imaginaire appelé la Terre du Milieu et suit les aventures dun groupe de personnages dans leur quête pour détruire un anneau magique."
+    {
+        "id": 3,
+        "titre": "Harry Potter à lécole des sorciers",
+          "auteur": "J.K. Rowling",
+          "prix": "12.50",
+          "description": "Harry Potter à lécole des sorciers est le premier livre de la série Harry Potter écrite par J.K. Rowling. Il raconte lhistoire dun jeune sorcier nommé Harry Potter et de ses aventures à lécole de sorcellerie Poudlard."
+    },
+]
