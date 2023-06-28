@@ -8,7 +8,6 @@ function App() {
   const [livreSupprime, setLivreSupprime] = useState('');
 
   useEffect(() => {
-    // Effectuez une requête GET pour récupérer tous les livres
     axios.get('http://localhost:3000/livres')
         .then(response => {
           setLivres(response.data);
@@ -19,7 +18,6 @@ function App() {
   }, []);
 
   const handleAjouterLivre = () => {
-    // Effectuez une requête POST pour ajouter un nouveau livre
     axios.post('http://localhost:3000/livres', nouveauLivre)
         .then(response => {
           console.log(response.data);
@@ -32,7 +30,6 @@ function App() {
   };
 
   const handleModifierLivre = (id) => {
-    // Effectuez une requête PUT pour modifier un livre existant
     axios.put(`http://localhost:3000/livres/${id}`, livreModifie)
         .then(response => {
           console.log(response.data);
@@ -48,7 +45,6 @@ function App() {
   };
 
   const handleSupprimerLivre = (id) => {
-    // Effectuez une requête DELETE pour supprimer un livre
     axios.delete(`http://localhost:3000/livres/${id}`)
         .then(response => {
           console.log(response.data);
